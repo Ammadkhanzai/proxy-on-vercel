@@ -6,7 +6,7 @@
       },
       {
         "source": "/:match*",
-        "destination": "fileinstant-vercels.vercel.app/:match*"
+        "destination": "https://fileinstant-vercels.vercel.app/:match*"
       }
     ]
   }
