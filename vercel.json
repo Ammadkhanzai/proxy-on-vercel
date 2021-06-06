@@ -4,6 +4,10 @@
         "source": "/frontend/:match*",
         "destination": "https://fileinstant-vercel.vercel.app/:match*"
       },
+          {
+      "source": "/test/:match*",
+      "destination": "https://fileinstant-vercel.vercel.app/"
+    },
       {
         "source": "/admin/:match*",
         "destination": "https://fileinstant-vercel.vercel.app/admin/:match*"
