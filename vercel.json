@@ -1,8 +1,12 @@
 {
     "rewrites": [
+         {
+        "source": "/frontend/:match*",
+        "destination": "https://fileinstant-vercel.vercel.app/:match*"
+      },
       {
         "source": "/admin/:match*",
-        "destination": "https://fileinstant-vercel.vercel.app/:match*"
+        "destination": "https://fileinstant-vercel.vercel.app/admin/:match*"
       },
       {
         "source": "/:match*",
