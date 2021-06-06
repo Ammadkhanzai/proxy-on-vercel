@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/admin/:match*",
-        "destination": "https://fileinstant-vercel.vercel.app/admin/:match*"
+        "destination": "https://fileinstant-vercel.vercel.app/:match*"
       },
       {
         "source": "/:match*",
